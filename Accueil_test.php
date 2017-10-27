@@ -17,47 +17,62 @@
   <body>
 
         <div class="container">
-            <div class="panel panel-default" >
-                <div class="panel-heading">
-                    <div class="panel-title text-center">Inscription</div>
-                </div>
-                <div class="panel-body">
-                    <form action="/Accueil/resultat-formulaire.php" method="post">
-                        <div class="col-md-12 col-md-offset">
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                                <input type="text" name="prenom" placeholder="Prénom"/>
-                            </div>
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                                <input type="text" name="nom" placeholder="Nom" />
-                            </div>
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                                <input type="text" name="pseudo" placeholder="Pseudo" />
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default" >
+                        <div class="panel-heading">
+                            <div class="panel-title text-center">Inscription</div>
+                        </div>
+                        <div class="panel-body">
+                            <div class="col-md-6">
+                                <p><img id="logo" src="images/logo1_mini.png" alt="logo" height="110%" width="110%"></p>
                             </div>
 
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                                <input type="text" name="email" placeholder="Email" />
+                            <div class="col-md-6">
+                                <form action="/Accueil/resultat-formulaire.php" method="post">
+                                    <div class="col-md-12">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                            <input type="text" name="prenom" placeholder="Prénom"/>
+                                        </div>
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                            <input type="text" name="nom" placeholder="Nom" />
+                                        </div>
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                            <input type="text" name="pseudo" placeholder="Pseudo" />
+                                        </div>
+
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                            <input type="text" name="email" placeholder="Email" />
+                                        </div>
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                            <input type="password" name="pwd" placeholder="Mot de passe"/>
+                                        </div>
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                            <input type="password" name="pwd2" placeholder="Vérification mot de passe" />
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-md-12 controls">
+                                                 <button type="submit" href="#" class="btn btn-primary pull-right"><i class="glyphicon glyphicon-log-in"></i> S'inscrire</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+
                             </div>
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-                                <input type="password" name="pwd" placeholder="Mot de passe"/>
-                            </div>
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-                                <input type="password" name="pwd2" placeholder="Vérification mot de passe" />
-                            </div>
-                            <div class="form-group">
-                                <div class="col-md-12 controls">
-                                     <button type="submit" href="#" class="btn btn-primary pull-right"><i class="glyphicon glyphicon-log-in"></i> S'inscrire</button>
-                                </div>
-                            </div>
+
                         </div>
-                    </form>
+                    </div>
+
                 </div>
             </div>
+
+
             </div>
         </div>
 

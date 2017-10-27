@@ -1,15 +1,26 @@
 body {
-    background-color: orange;
+    background-color: #ff983d;
 }
 
 .container{
     position:absolute;
     left: 42%;
-    top: 40%;
-    width: 500px;
-    height: 220px;
-    margin-left: -100px; /* Cette valeur doit être la moitié négative de la valeur du width */
+    top: 38%;
+    width: 20%;
+    height: 30%;
+    margin-left: -130px; /* Cette valeur doit être la moitié négative de la valeur du width */
     margin-top: -100px;
+    padding-left:auto;
+    padding-right: auto;
+}
+
+#logo{
+    padding-top: 10%;
+}
+
+.input-group{
+    margin-top: 20px;
+    margin-bottom : 20px;
 }
 
 #loginbox {
@@ -30,12 +41,13 @@ body {
 }
 
 #form > div:last-child {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .panel {
     background-color: #C3C1BA;
+    width:165%;
 }
 
 
