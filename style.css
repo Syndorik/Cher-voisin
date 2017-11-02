@@ -23,6 +23,19 @@ body {
     margin-bottom : 20px;
 }
 
+input, span {
+    border-radius: 0px 0px 3px 3px;
+    box-shadow: 2px 2px 2px grey;
+    border-right: 1px grey solid;
+    border-top: 1px grey solid;
+    border-bottom: 1px grey solid;
+}
+
+input{
+    height: 30px;
+    border-right: None;
+}
+
 #loginbox {
     margin-top: 30px;
 }
