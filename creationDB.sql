@@ -25,19 +25,19 @@ create table Friends(
     primary key (user_ID1, user_ID2)
 );
 
-create table Godfathers{
+create table Godfathers(
     godfather_ID int not null,
     godchild_ID int not null,
     primary key (godfather_ID, godchild_ID)
-    }
+);
 
-create table Titles{
+create table Titles(
     user_ID int not null,
     borrower_title VARCHAR(50),
     lender_title VARCHAR(50),
     godfather_title VARCHAR(50),
     primary key (user_ID)
-    }
+);
 
 create table Reviews(
     review_ID serial,
