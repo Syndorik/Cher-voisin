@@ -8,7 +8,7 @@ body {
     top: 38%;
     width: 20%;
     height: 30%;
-    margin-left: -130px; /* Cette valeur doit être la moitié négative de la valeur du width */
+    margin-left: -100px; /* Cette valeur doit être la moitié négative de la valeur du width */
     margin-top: -100px;
     padding-left:auto;
     padding-right: auto;
@@ -23,17 +23,21 @@ body {
     margin-bottom : 20px;
 }
 
-input, span {
-    border-radius: 0px 0px 3px 3px;
-    box-shadow: 2px 2px 2px grey;
-    border-right: 1px grey solid;
-    border-top: 1px grey solid;
-    border-bottom: 1px grey solid;
-}
-
-input{
+input, select{
     height: 30px;
     border-right: None;
+}
+
+.input-group-addon{
+    height: auto;
+}
+
+select{
+    width:100%;
+}
+
+#batiment{
+    width: 100%;
 }
 
 #loginbox {
