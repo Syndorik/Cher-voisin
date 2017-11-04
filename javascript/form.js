@@ -109,16 +109,12 @@ function verifbat(batiment,ev){
 function recreate(){
 	dch = document.createElement('div');
 	dch.id = 'yolo';
-	lbl = document.createElement('label');
-	lbl.for = "Nch";
-	txt1 = document.createTextNode("Numéro de chambre");
 	inpp = document.createElement('input');
 	inpp.type= 'text';
 	inpp.name = 'nch';
 	inpp.id = 'chambre';
+	inpp.placeholder = "Numéro de chambre";
 	spp = document.createElement('span');
-	lbl.appendChild(txt1);
-	dch.appendChild(lbl);
 	dch.appendChild(inpp);
 	dch.appendChild(spp);
 	return(dch);
@@ -126,11 +122,11 @@ function recreate(){
 
 function autreBat(batiment){
 	if(batiment.value === "autre"){
-		batiment.parentNode.appendChild(document.createTextNode('Adresse :'));
 		addr = document.createElement('input');
 	    addr.id = 'addr';
 	    addr.type = 'text';
 	    addr.name = 'addr';
+	    addr.placeholder = "Adresse"
 	    batiment.parentNode.appendChild(addr);
 	    spip = document.createElement('span');
 	    spip.id = "spip";
@@ -146,7 +142,6 @@ function autreBat(batiment){
         			batiment.parentNode.removeChild(inp);
         			batiment.parentNode.removeChild(spip);
         			mf.insertBefore(recreate(),sbm);
-        			batiment.parentNode.removeChild(batiment.parentNode.lastChild);
         		}
         	}
       	})

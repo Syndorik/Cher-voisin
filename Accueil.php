@@ -6,39 +6,32 @@
 
 <form action="/Accueil/resultat-formulaire.php" method="post" id="mf">
     <div>
-        <label for="Prénom">Prénom : </label>
-        <input type="text" name="prenom" id="Prenom"/>
+        <input type="text" name="prenom" id="Prenom" placeholder="Prenom" />
         <span></span>
     </div>
     <div>
-        <label for="Nom">Nom : </label>
-        <input type="text" name="nom" id = "Nom" />
+        <input type="text" name="nom" id = "Nom" placeholder="Nom" />
         <span></span>
     </div>
     <div>
-        <label for="Pseudonyme">Pseudonyme : </label>
-        <input type="text" name="pseudo" id = "Pseudo" />
+        <input type="text" name="pseudo" id = "Pseudo" placeholder="Pseudonyme" />
         <span></span>
     </div>
     <div>
-        <label for="email">E-mail : </label>
-        <input type="text" name="email" id="email"/>
+        <input type="text" name="email" id="email" placeholder="email" />
         <span></span>
     </div>
     <div>
-        <label for="Password">Mot de passe : </label>
-        <input type="password" name="pwd" id ="pass" />
+        <input type="password" name="pwd" id ="pass" placeholder="Mot de pass" />
         <span></span>
     </div>
     <div>
-        <label for="Password">Mot de passe (confirmation): </label>
-        <input type="password" name="pwd2" id = "pass1"/>
+        <input type="password" name="pwd2" id = "pass1" placeholder="Mot de passe (confiramtion)" />
         <span></span>
     </div>
 	<div>
-		<label for="batiment">Bâtiment : </label>
 		<select id ="batiment" name ="bat">
-			<option value= "null">Veuillez sélectionner une valeur</option>
+			<option value= "null">Veuillez sélectionner votre Bâtiment</option>
 			<option value= "i1">i1</option>
 			<option value= "i2">i2</option>
 			<option value= "i3">i3</option>
@@ -56,8 +49,7 @@
 		<span></span>
 	</div>
 	<div id = "yolo">
-        <label for="Nch">Numéro de Chambre : </label>
-        <input type="text" name="nch" id="chambre"/>
+        <input type="text" name="nch" id="chambre" placeholder="Numéro de chambre" />
         <span></span>
     </div>
     <span id = 'sbm'></span>
