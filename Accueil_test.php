@@ -18,18 +18,18 @@
     </head>
     <body>
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
+            <div class="row" id="first-row">
+                <div class="col-md-12" id="panel-parent">
                     <div class="panel panel-default " >
                         <div class="panel-heading">
                             <div class="panel-title text-center">Inscription</div>
                         </div>
                         <div class="panel-body">
-                            <div class="col-md-6 col-xs-12 col-s-12">
-                                <p><img class="img-responsive" id="logo" src="images/logo1_mini.png" alt="logo" height="110%" width="110%"></p>
+                            <div class="col-md-6 " id="logo_col">
+                                <p id="logo_p"><img class="img-responsive" id="logo" src="images/logo1_micro.png" alt="logo" height="80%" ></p>
                             </div>
 
-                            <div class="col-md-6 col-xs-12 col-s-12">
+                            <div class="col-md-6">
                                 <form action="/Accueil/resultat-formulaire.php" method="post" id="mf">
                                     <div class="col-md-12">
                                         <div class="input-group">

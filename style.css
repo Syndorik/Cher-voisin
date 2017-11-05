@@ -1,22 +1,30 @@
 body {
     background-color: #ff983d;
+    height:100vh;
 }
 
-.container{
-    position:absolute;
-    left: 42%;
-    top: 38%;
-    width: 20%;
-    height: 30%;
-    margin-left: -100px; /* Cette valeur doit être la moitié négative de la valeur du width */
-    margin-top: -100px;
-    padding-left:auto;
-    padding-right: auto;
+.container #first-row #panel-parent{
+    height: 100vh;
+}
+
+#panel-parent{
+    display: flex;
+}
+
+#logo_col{
+    display:flex;
+}
+
+#logo_p{
+    display: flex;
+    margin: auto;
 }
 
 #logo{
-    padding-top: 10%;
+    width:80%;
+    margin: auto;
 }
+
 
 .input-group{
     margin-top: 20px;
@@ -34,6 +42,10 @@ input, select{
 
 select{
     width:100%;
+}
+
+.panel {
+    margin: auto;
 }
 
 #batiment{
@@ -64,7 +76,7 @@ select{
 
 .panel {
     background-color: #C3C1BA;
-    width:165%;
+    width:auto;
 }
 
 
