@@ -1,21 +1,21 @@
-<!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <title>Inscription</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    </head>
+    <!DOCTYPE html>
+    <html lang="fr">
+      <head>
+        <title>Inscription</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        </head>
     <body>
         <div class="container">
             <div class="row" id="first-row">
@@ -35,33 +35,39 @@
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
                                             <input class="form-control" type="text" name="prenom" id="Prenom" placeholder="Prénom" />
-                                            <span></span>
+                                            <span id="firstNameMsg"></span>
                                         </div>
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
                                             <input class="form-control" type="text" name="nom" id = "Nom" placeholder="Nom" />
-                                            <span></span>
+                                            <span id="lastNameMsg"></span>
                                         </div>
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
                                             <input class="form-control" type="text" name="pseudo" id = "Pseudo" placeholder="Pseudo" />
-                                            <span></span>
+                                            <spanid="pseudoMsg"></span>
                                         </div>
 
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
                                             <input class="form-control" type="text" name="email" id="email" placeholder="Email" />
-                                            <span></span>
                                         </div>
+                                        <span id="emailMsg"></span>
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
                                             <input class="form-control" type="password" name="pwd" id ="pass" placeholder="Mot de passe" />
-                                            <span></span>
+                                            <span id="passMsg">coucou</span>
                                         </div>
-                                        <div class="input-group">
-                                            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-                                            <input class="form-control" type="password" name="pwd2" id = "pass1" placeholder="Vérification mot de passe" />
-                                            <span></span>
+
+                                        <div>
+                                            <div class="input-group">
+
+                                                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                                <input class="form-control" type="password" name="pwd2" id = "pass1" placeholder="Vérification mot de passe" />
+                                                <span id="pass1Msg"></span>
+                                            </div>
+
+
                                         </div>
                                         <div class="input-group" id="batiment">
                                             <select class="form-control" id ="batiment" name ="bat">
@@ -80,7 +86,7 @@
                                                 <option value= "i12">i12</option>
                                                 <option value = "autre">Autre</option>
                                             </select>
-                                            <span></span>
+                                            <span id="batMsg"></span>
                                         </div>
 
                                         <div class="input-group dropdown">
@@ -92,7 +98,7 @@
                                               </ul>
 
 
-                                           </div><!-- /input-group -->
+                                        </div><!-- /input-group -->
 
                                         <span id="sbm"></span>
                                         <div class="form-group button">

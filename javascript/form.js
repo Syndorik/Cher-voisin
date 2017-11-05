@@ -13,26 +13,36 @@ var sbm = document.getElementById('sbm');
 var mf = document.getElementById('mf');
 
 
-function verifname(name,ev){
+function verifLastName(name,ev){
 	if(name.value.length>1){
-		name.nextElementSibling.innerHTML = "";
-
+		document.getElementById("lastNameMsg").innerHTML  = "";
 	}
 	else{
 		warning = "Il doit y avoir au moins 2 caractères";
-		name.nextElementSibling.innerHTML = warning;
+		document.getElementById("lastNameMsg").innerHTML = warning;
+		ev.preventDefault();
+	}
+}
+
+function verifFirstName(name,ev){
+	if(name.value.length>1){
+		document.getElementById("firstNameMsg").innerHTML = "";
+	}
+	else{
+		warning = "Il doit y avoir au moins 2 caractères";
+		document.getElementById("firstNameMsg").innerHTML = warning;
 		ev.preventDefault();
 	}
 }
 
 function verifadd(name,ev){
 	if(name.value.length>3){
-		name.nextElementSibling.innerHTML = "";
+		document.getElementById("addMsg").innerHTML  = "";
 
 	}
 	else{
 		warning = "Veuillez rentrer une adresse correcte";
-		name.nextElementSibling.innerHTML = warning;
+		document.getElementById("addMsg").innerHTML = warning;
 		ev.preventDefault();
 	}
 }
@@ -40,12 +50,12 @@ function verifadd(name,ev){
 
 function verifpseudo(pseudo,ev){
 	if(pseudo.value.length>6){
-		pseudo.nextElementSibling.innerHTML = "";
+		document.getElementById("pseudoMsg").innerHTML  = "";
 
 	}
 	else{
 		warning = "Il doit y avoir au moins 6 caractères";
-		pseudo.nextElementSibling.innerHTML = warning;
+		document.getElementById("pseudoMsg").innerHTML = warning;
 		ev.preventDefault();
 	}
 }
@@ -54,17 +64,17 @@ function verifpseudo(pseudo,ev){
 function verifpass(pass1,pass2,ev){
 
 	if(pass1.value === pass2.value && pass1.value.length>8){
-		pass2.nextElementSibling.innerHTML = "";
-		pass1.nextElementSibling.innerHTML = "";
+		document.getElementById("passMsg").innerHTML  = "";
+		document.getElementById("pass1Msg").innerHTML  = "";
 	}
 	else if(pass1.value !== pass2.value){
-		warning = "Les mots de pass doivent correspondre";
-		pass2.nextElementSibling.innerHTML = warning;
+		warning = "Les mots de passe doivent correspondre";
+		document.getElementById("pass1Msg").innerHTML  = warning;
 		ev.preventDefault();
 	}
 	else if (pass1.value === pass2.value && pass1.value.length< 8){
-		warning = "Le mot de pass est trop court";
-		pass1.nextElementSibling.innerHTML = warning;
+		warning = "Le mot de passe doit contenir au moins 7 caractères";
+		document.getElementById("pass1Msg").innerHTML  = warning;
 		ev.preventDefault();
 	}
 }
@@ -82,11 +92,11 @@ function existin(txt,letter){
 
 function verifmail(mail,ev){
 	if(existin(mail,"@")){
-		email.nextElementSibling.innerHTML = "";
+		document.getElementById("emailMsg").innerHTML  = "";
 	}
 	else{
 		warning = "Veuillez rentrez une adresse mail correct";
-		email.nextElementSibling.innerHTML = warning;
+		document.getElementById("emailMsg").innerHTML  = warning;
 		ev.preventDefault();
 	}
 }
@@ -95,14 +105,14 @@ function verifbat(batiment,ev){
 	dvch = document.getElementById('yolo');
 	if(batiment.value == "null"){
 		warning = "Veuillez choisir votre bâtiment";
-		batiment.nextElementSibling.innerHTML = warning;
+		document.getElementById("batMsg").innerHTML  = warning;
 		ev.preventDefault();
 	}
 	else if(batiment.value == "autre"){
 		dvch.parentNode.removeChild(dvch);
 	}
 	else{
-		batiment.nextElementSibling.innerHTML = "";
+		document.getElementById("batMsg").innerHTML  = "";
 	}
 }
 
@@ -163,11 +173,11 @@ var cch = chambre;
 var verinp = 0;
 var dvch = 0;
 
-	
+
 mf.addEventListener('submit',function(e){
 	cch = document.getElementById('chambre');
-	verifname(nom,e);
-	verifname(prenom,e);
+	verifLastName(nom,e);
+	verifFirstName(prenom,e);
 	verifpseudo(pseudo,e);
 	verifpass(pass,passconf,e);
 	verifmail(email,e);
@@ -192,11 +202,11 @@ email.addEventListener('blur',function(e){
 })
 
 nom.addEventListener('blur', function(e){
-	verifname(nom,e);
+	verifLastName(nom,e);
 })
 
 prenom.addEventListener('blur',function(e){
-	verifname(prenom,e);
+	verifFirstName(prenom,e);
 })
 
 pseudo.addEventListener('blur',function(e){
@@ -209,12 +219,12 @@ passconf.addEventListener('blur',function(e){
 
 pass.addEventListener('blur',function(e){
 	if(pass.value.length< 8){
-		warning = "Le mot de pass est trop court";
-		pass1.nextElementSibling.innerHTML = warning;
+		warning = "Le mot de pass doit contenir au moins 7 caractères";
+		document.getElementById("passMsg").innerHTML = warning;
 		e.preventDefault();
 	}
 	else{
-		pass1.nextElementSibling.innerHTML = "";
+		document.getElementById("passMsg").innerHTML  = "";
 	}
 })
 /*

@@ -9,6 +9,7 @@ body {
 
 #panel-parent{
     display: flex;
+    padding-top: 20px;
 }
 
 #logo_col{
@@ -16,7 +17,6 @@ body {
 }
 
 #logo_p{
-    display: flex;
     margin: auto;
 }
 
@@ -42,10 +42,6 @@ input, select{
 
 select{
     width:100%;
-}
-
-.panel {
-    margin: auto;
 }
 
 #batiment{
@@ -75,6 +71,7 @@ select{
 }
 
 .panel {
+    margin: auto;
     background-color: #C3C1BA;
     width:auto;
 }
