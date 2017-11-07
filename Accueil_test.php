@@ -30,46 +30,46 @@
                             </div>
 
                             <div class="col-md-6">
-                                <form action="/Accueil/resultat-formulaire.php" method="post" id="mf">
-                                    <div class="col-md-12">
+                                <form action="/Accueil/resultat-formulaire.php" method="post" id="mff">
+                                    <div class="col-md-12" id = "mf">
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
                                             <input class="form-control" type="text" name="prenom" id="Prenom" placeholder="Prénom" />
-                                            <span id="firstNameMsg"></span>
                                         </div>
+                                        <span id="firstNameMsg" class = "span-warning"></span>
+
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
                                             <input class="form-control" type="text" name="nom" id = "Nom" placeholder="Nom" />
-                                            <span id="lastNameMsg"></span>
                                         </div>
+                                        <span id="lastNameMsg" class = "span-warning"></span>
+
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
                                             <input class="form-control" type="text" name="pseudo" id = "Pseudo" placeholder="Pseudo" />
-                                            <spanid="pseudoMsg"></span>
                                         </div>
+                                        <span id="pseudoMsg" class = "span-warning"></span>
 
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
                                             <input class="form-control" type="text" name="email" id="email" placeholder="Email" />
                                         </div>
-                                        <span id="emailMsg"></span>
+                                        <span id="emailMsg" class = "span-warning"></span>
+                                        
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
                                             <input class="form-control" type="password" name="pwd" id ="pass" placeholder="Mot de passe" />
-                                            <span id="passMsg">coucou</span>
                                         </div>
+                                        <span id="passMsg" class = "span-warning"></span>
 
-                                        <div>
-                                            <div class="input-group">
+                                        <div class="input-group">
 
-                                                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-                                                <input class="form-control" type="password" name="pwd2" id = "pass1" placeholder="Vérification mot de passe" />
-                                                <span id="pass1Msg"></span>
-                                            </div>
-
-
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                            <input class="form-control" type="password" name="pwd2" id = "pass1" placeholder="Vérification mot de passe" />
                                         </div>
-                                        <div class="input-group" id="batiment">
+                                        <span id="pass1Msg" class = "span-warning"></span>
+
+                                        <div class="input-group" id="batt">
                                             <select class="form-control" id ="batiment" name ="bat">
                                                 <option value= "null">Batiment</option>
                                                 <option value= "i1">i1</option>
@@ -86,21 +86,19 @@
                                                 <option value= "i12">i12</option>
                                                 <option value = "autre">Autre</option>
                                             </select>
-                                            <span id="batMsg"></span>
                                         </div>
-
-                                        <div class="input-group dropdown">
-                                                 <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-                                                 <button type="button" class="form-control btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Batiment <span class="caret"></span></button>
-                                              <ul class="dropdown-menu">
-                                                <li><a href="#">i1</a></li>
-                                                <li><a href="#">i2</a></li>
-                                              </ul>
+                                        <span id="batMsg" class = "span-warning"></span>
 
 
-                                        </div><!-- /input-group -->
+                                        <div class="input-group" id = "yolo">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                                            <input class="form-control" type="text" name="pseudo" id = "chambre" placeholder="Chambre" />
+                                        </div> <!-- end input -->
+                                        <span id="spanchbr" class = "span-warning"></span>
+
 
                                         <span id="sbm"></span>
+
                                         <div class="form-group button">
                                             <div class="col-md-12 controls">
                                                  <button type="submit" href="#" class="btn btn-primary pull-right"><i class="glyphicon glyphicon-log-in"></i> S'inscrire</button>
