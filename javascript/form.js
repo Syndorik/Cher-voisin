@@ -11,6 +11,7 @@ var chambre = document.getElementById('chambre');
 var divchambre = document.getElementById('yolo');
 var sbm = document.getElementById('sbm');
 var mf = document.getElementById('mf');
+var mff = document.getElementById('mff');
 
 
 function verifLastName(name,ev){
@@ -220,7 +221,7 @@ var verinp = 0;
 var dvch = 0;
 
 
-mf.addEventListener('submit',function(e){
+mff.addEventListener('submit',function(e){
 	cch = document.getElementById('chambre');
 	verifLastName(nom,e);
 	verifFirstName(prenom,e);
