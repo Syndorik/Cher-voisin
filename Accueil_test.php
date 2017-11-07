@@ -61,7 +61,6 @@
 
                                         <div>
                                             <div class="input-group">
-
                                                 <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
                                                 <input class="form-control" type="password" name="pwd2" id = "pass1" placeholder="Vérification mot de passe" />
                                                 <span id="pass1Msg"></span>
