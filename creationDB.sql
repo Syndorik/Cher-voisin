@@ -57,6 +57,7 @@ create table Loans(
     object_ID int not null,
     borrower_ID int not null,
     loan_date date not null,
+    loan_end_date date,
     primary key (loan_ID)
 );
 
@@ -65,11 +66,24 @@ create table Objects(
     object_name VARCHAR(50) not null,
     owner_ID int not null,
     state boolean not null,
+    category int,
     primary key (object_ID)
+);
+
+create table Categories(
+    category_id serial,
+    category_name VARCHAR(50) not null,
 );
 
 create table Groups(
     group_ID serial unique,
     group_name VARCHAR(90),
     primary key (group_ID)
-)
+);
+
+insert into Categories values 'Cooking';
+insert into Categories values 'Gardening';
+insert into Categories values 'Electronic';
+insert into Categories values 'Sport';
+insert into Categories values 'Diy';
+insert into Categories values 'Diverse';

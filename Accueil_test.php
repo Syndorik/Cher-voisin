@@ -16,7 +16,7 @@
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
         </head>
-    <body>
+    <body id="welcome-body">
         <div class="container">
             <div class="row" id="first-row">
                 <div class="col-md-12" id="panel-parent">
