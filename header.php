@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <nav class="navbar navbar-default navbar-fixed-top">
+  <nav class="navbar navbar-default navbar-fixed-top navbar-center">
     <div class="container-fluid container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -22,11 +22,21 @@
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right" id="menu-items">
+        <ul class="nav navbar-nav navbar-center" id="menu-items">
           <li><a href="#">Accueil <span class="sr-only">(current)</span></a></li>
           <li><a href="#">Mes objets</a></li>
           <li><a href="#">Objets empruntés</a></li>
-          <li><a href="#">Mon compte <span><i class="glyphicon glyphicon-user"></i></span></a></li>
+          <li><a href="#"><i class="glyphicon glyphicon-user"></i></a></li>
+          <li><form class="navbar-form navbar-left">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Rechercher un objet">
+              <div class="input-group-btn">
+                <button class="btn btn-default" type="submit">
+                  <i class="glyphicon glyphicon-search"></i>
+                </button>
+              </div>
+            </div>
+          </form></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->

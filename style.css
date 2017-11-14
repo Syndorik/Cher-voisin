@@ -27,7 +27,130 @@ body {
   background-color: #ff983d;
   margin-bottom: auto;
   position: relative;
-  width: 100%;
+  font-size: 1.2em;
+  border-radius: 0px;
+  min-height: 70px;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+.navbar-header {
+	height: 68px;
+}
+
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 0;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color: transparent;
+	border-bottom: 1px solid white;
+}
+
+.dropdown-menu {
+	background-color: #ff983d;
+	color: white;
+	margin-top:; 0;
+	padding: 0 0 0 0;
+	width:100%;
+	border-radius: 0;
+	border: 1px solid #ff983d;
+	min-width: 0;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	background-color: transparent;
+}
+
+.dropdown-menu>li>a {
+	color:white;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+	background-color: orange;
+	color: white;
+}
+
+.dropdown-menu>li {
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+.dropdown-menu li:hover, .dropdown-menu li:focus {
+	background-color: #0C2340;
+}
+
+.navbar-default .navbar-toggle:hover {
+	background-color: #ff983d;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+	color: white;
+}
+
+#logo {
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+#logo-text {
+	color:white;
+	padding-top: 17px;
+	padding-right: 0;
+	font-size: 1.3em;
+	text-align: right;
+	font-family: 'Indie Flower', cursive;
+}
+
+#menu-items>li>a {
+	color: white;
+	margin: 0 3px 0 3px;
+}
+
+#menu-items>li {
+	padding: 10px 5px 10px 0;
+}
+
+#menu-items>li:not(.active) {
+	border-bottom: 1px solid transparent;
+}
+
+#menu-items>li:hover {
+	background-color: #00B8DE;
 }
 
 
