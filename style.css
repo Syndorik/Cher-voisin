@@ -41,6 +41,9 @@ body {
 }
 
 
+/******* MY OBJECTS ********/
+
+
 /******* OBJECTS BORROWED *******/
 
 #objectsBorrowed .container{
@@ -53,6 +56,16 @@ body {
 
 #objectsBorrowed .row{
   display: flex;
+}
+
+/***********************/
+
+tbody{
+  vertical-align: middle;
+}
+
+tr{
+  vertical-align: middle;
 }
 
 /******* INSCRIPTION *********/
