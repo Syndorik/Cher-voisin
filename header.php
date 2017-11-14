@@ -23,13 +23,10 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right" id="menu-items">
-          <li><a href="#">Home <span class="sr-only">(current)</span></a></li>
-          <li class="dropdown" class="active"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">On Campus <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">Necessities</a></li>
-            </ul>
-          </li>
+          <li><a href="#">Accueil <span class="sr-only">(current)</span></a></li>
+          <li><a href="#">Mes objets</a></li>
+          <li><a href="#">Objets empruntés</a></li>
+          <li><a href="#">Mon compte <span><i class="glyphicon glyphicon-user"></i></span></a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->

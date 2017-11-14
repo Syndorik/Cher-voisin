@@ -17,8 +17,7 @@ body {
 }
 
 .container{
-  margin: 0 auto;
-  margin-top: auto;
+  margin: auto;
 }
 
 
@@ -26,8 +25,9 @@ body {
 
 .navbar{
   background-color: #ff983d;
-  margin-bottom: 20px;
   margin-bottom: auto;
+  position: relative;
+  width: 100%;
 }
 
 
@@ -42,6 +42,23 @@ body {
 
 
 /******* MY OBJECTS ********/
+
+#newObject{
+  margin-left: 5%;
+  min-width: 30%;
+  max-width: 200%;
+}
+
+#myObjects table{
+  width: 75%;
+  max-height: 100%;
+  margin-top: 10px;
+}
+
+td, th{
+  text-align: center;
+}
+
 
 
 /******* OBJECTS BORROWED *******/
