@@ -19,15 +19,20 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" id="logo"><img src="images/logo.png" width="20%" ></a>
+          <a class="navbar-brand" id="logo"><img src="images/logo_mini.png" id="logo-pic" ></a>
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-center" id="menu-items">
-          <li><a href="#">Accueil <span class="sr-only">(current)</span></a></li>
-          <li><a href="#">Mes objets</a></li>
-          <li><a href="#">Objets empruntés</a></li>
-          <li><a href="#"><i class="glyphicon glyphicon-user"></i></a></li>
+          <li><a href="index.php">Accueil <span class="sr-only">(current)</span></a></li>
+          <li><a href="myObjects.php">Mes objets</a></li>
+          <li><a href="objectsBorrowed.php">Objets empruntés</a></li>
+          <li class="dropdown"><a class="dropdown-toggle dropdown" data-hover="dropdown" data-target="#" href="#" data-toggle="dropdown"><i class="glyphicon glyphicon-user"></i></a>
+              <ul class="dropdown-menu">
+                  <li><a href="myAccount.php">Mon compte</a></li>
+                  <li><a href="friends.php">Mes amis</a></li>
+            </ul>
+          </li>
           <li><form class="navbar-form navbar-left">
             <div class="input-group">
               <input type="text" class="form-control" placeholder="Rechercher un objet">

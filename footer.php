@@ -4,23 +4,41 @@
         <div id="footer-content-2">
           <div id="pages" class="col-sm-4">
             <ul>
-              <li><a href="#">Clubs</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="index.php">Accueil</a></li>
+              <li><a href="myObjects.php">Mes objets</a></li>
+              <li><a href="objectsBorrowed.php">Objets empruntés</a></li>
+              <li><a href="myAccount">Mon compte</a></li>
+              <li><a href="friends.php">Mes amis</a></li>
+              <li><form>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Rechercher un objet">
+                  <div class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <i class="glyphicon glyphicon-search"></i>
+                    </button>
+                  </div>
+                </div>
+              </form></li>
+            </ul>
+          </div>
+          <div id="acknowledgments" class="col-sm-4">
+            <h3>Nos partenaires</h3>
+            <ul>
+              <li>Carrefour</li>
+              <li>Intermarché</li>
+              <li>Lidle</li>
             </ul>
           </div>
           <div id="social-media" class="col-sm-4">
-            <h3>Follow Us! <i class="fa fa-comment-o fa-lg" aria-hidden="true"></i></h3>
-        	<a href="https://www.facebook.com/IMTAtlantique/"><img src="#" title="Facebook IMT Atlantique"></a>
-            <a href="https://www.instagram.com/imt_atlantique/"><img src="#" title="Instagram IMT Atlantique"></a>
-            <a href="https://twitter.com/imtatlantique?lang=en"><img src="#" title="Twitter IMT Atlantique"></a><br>
-          </div>
-          <div id="acknowledgments" class="col-sm-4">
-            <h3>Acknowledgments</h3>
-            <p>This website project was done as part of an English project for the C1+ English course at IMT Atltantique (Brest campus) over the Spring 2017 semester. Please click <a href="aknowledgements.php" target="_blank">here</a> for more information.</p>
+            <h3>Où nous contacter ? <i class="fa fa-comment-o fa-lg" aria-hidden="true"></i></h3>
+            <a href="https://www.facebook.com/ShareCampus/"><img src="images/facebook.png" title="Notre page Facebook"></a>
+            <a href="#"><img src="images/twitter.png" title="Twitter"></a>
+            <a href="mailto:s3-projet-39@mlistes.telecom-bretagne.eu"><img src="images/mail.png" title=""></a>
+            <a href="mailto:matthieu.alingrin@mlistes.telecom-bretagne.eu">Envoie nous un mail !</a>
           </div>
         </div>
-    </div>
-    <div id="copyrights"><p>Copyrights © 2017 ~ Alexandre Allani &amp; Matthieu Alingrin ~ <a href="aknowledgements.php" target="_blank">aknowledgements</a></p></div>
+    </div><!-- END of row -->
+    <div id="copyrights"><p>Copyrights © 2017 ~ Share Campus ~ <a href="#" target="_blank">acknowledgements</a></p></div>
   </div>
 </div>
 </div><!-- END of wrapper -->
