@@ -31,11 +31,12 @@
               <ul class="dropdown-menu">
                   <li><a href="myAccount.php">Mon compte</a></li>
                   <li><a href="friends.php">Mes amis</a></li>
+                  <li><a href="friends.php">Déconnexion</a></li>
             </ul>
           </li>
           <li><form class="navbar-form navbar-left">
             <div class="input-group">
-              <input type="text" class="form-control" placeholder="Rechercher un objet">
+              <input type="text" class="form-control" placeholder="Rechercher un objet" id="search">
               <div class="input-group-btn">
                 <button class="btn btn-default" type="submit">
                   <i class="glyphicon glyphicon-search"></i>

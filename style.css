@@ -24,7 +24,7 @@ body {
 /******** HEADER ********/
 
 .navbar{
-  background-color: #ff983d;
+  background-color: #FF9800;
   margin-bottom: auto;
   position: relative;
   font-size: 1.2em;
@@ -84,12 +84,12 @@ body {
 }
 
 .dropdown-menu {
-	background-color: #ff983d;
+	background-color: #FF9800;
 	color: white;
 	margin-top:; 0;
 	padding: 0 0 0 0;
 	border-radius: 0;
-	border: 1px solid #ff983d;
+	border: 1px solid #FF9800;
 	min-width: 0;
   font-size: 1em;
 }
@@ -136,7 +136,7 @@ body {
 }
 
 .navbar-default .navbar-toggle:hover {
-	background-color: #ff983d;
+	background-color: #FF9800;
 }
 
 .navbar-default .navbar-nav .open .dropdown-menu>li>a, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
@@ -180,17 +180,16 @@ body {
 /******** FOOTER ********/
 
 #footer-wrapper{
-  background-color: #ff983d;
+  background-color: #FF9800;
   width: 100%;
   margin-top: auto;
   text-align: center;
   margin: 0 0 0 0;
-  max-height: 250px;
   margin-bottom: 0px;
 }
 
 #footer {
-	background-color: #ff983d;
+	background-color: #FF9800;
 	color:white;
   max-height: 100%;
 }
@@ -222,7 +221,7 @@ body {
 	color: white;
 	text-decoration: none;
 	margin: 0 20px 0 20px;
-	font-size: 1.2em;
+	font-size: 1em;
 	letter-spacing: 0.5px;
 }
 
@@ -252,9 +251,9 @@ body {
 }
 
 #copyrights {
-	padding: 7px 0 0 0;
+	padding: 0.5px 0 0 0;
 	color: white;
-	background-color: #ff983d;
+	background-color: #FF9800;
 }
 
 #copyrights a {
@@ -262,8 +261,12 @@ body {
 }
 
 #copyrights a:hover {
-	color:#ff983d;
+	color:#FF9800;
 	text-decoration: none;
+}
+
+#copyrights p{
+  margin: 0 0 2px;
 }
 
 
@@ -314,7 +317,7 @@ tr{
 /******* INSCRIPTION *********/
 
 #welcome-body{
-  background-color: #ff983d;
+  background-color: #FF9800;
 }
 
 .container #first-row #panel-parent{

@@ -9,16 +9,7 @@
               <li><a href="objectsBorrowed.php">Objets empruntés</a></li>
               <li><a href="myAccount">Mon compte</a></li>
               <li><a href="friends.php">Mes amis</a></li>
-              <li><form>
-                <div class="input-group">
-                  <input type="text" class="form-control" placeholder="Rechercher un objet">
-                  <div class="input-group-btn">
-                    <button class="btn btn-default" type="submit">
-                      <i class="glyphicon glyphicon-search"></i>
-                    </button>
-                  </div>
-                </div>
-              </form></li>
+              <li><a href="#search">Rechercher un objet</a></li>
             </ul>
           </div>
           <div id="acknowledgments" class="col-sm-4">
@@ -33,8 +24,7 @@
             <h3>Où nous contacter ? <i class="fa fa-comment-o fa-lg" aria-hidden="true"></i></h3>
             <a href="https://www.facebook.com/ShareCampus/"><img src="images/facebook.png" title="Notre page Facebook"></a>
             <a href="#"><img src="images/twitter.png" title="Twitter"></a>
-            <a href="mailto:s3-projet-39@mlistes.telecom-bretagne.eu"><img src="images/mail.png" title=""></a>
-            <a href="mailto:matthieu.alingrin@mlistes.telecom-bretagne.eu">Envoie nous un mail !</a>
+            <a href="mail.php"><img src="images/mail.png" title=""></a>
           </div>
         </div>
     </div><!-- END of row -->
