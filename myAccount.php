@@ -1,5 +1,5 @@
 <?php include("header.php");?>
-<div class="container-fluid">
+<div class="container">
     <h1 class="text-center">Mon compte</h1>
     <div class="row well" id="info-row">
         <h2>Infos</h2>

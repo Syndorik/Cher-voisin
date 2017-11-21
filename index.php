@@ -1,5 +1,5 @@
 <?php include("header.php");?>
-  <div class="container-fluid">
+  <div class="container">
     <div class="row" id="presentation-row">
       <div class="col-md-12">
         <a href="#"><img src="images/campus.png" alt="campus"></a>
