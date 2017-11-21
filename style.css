@@ -268,6 +268,20 @@ body {
   margin: 0 0 2px;
 }
 
+/******** CONNEXION *********/
+
+.modal-title{
+  text-align: center;
+}
+
+.modal img{
+  margin:auto;
+}
+
+.modal-footer {
+  border-top:none;
+}
+
 
 /******* MY OBJECTS ********/
 

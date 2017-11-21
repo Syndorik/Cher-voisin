@@ -22,17 +22,14 @@
               <div class="col-md-12" id="panel-parent">
                   <div class="panel panel-default " >
                       <div class="panel-heading">
-                          <div class="panel-title text-center">Inscription</div>
+                          <div class="panel-title text-center">Connecte toi !</div>
                       </div>
                       <div class="panel-body">
-                          <div class="col-md-6 " id="logo_col">
+                          <div class="col-md-12" id="logo_col">
                               <p id="logo_p"><img class="img-responsive" id="logo" src="images/logo.png" alt="logo" height="80%" ></p>
-                          </div>
 
-                          <div class="col-md-6">
                               <form action="/Accueil/resultat-formulaire.php" method="post" id="mff">
                                   <div class="col-md-12" id = "mf">
-""
                                       <div class="input-group">
                                           <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
                                           <input class="form-control" type="text" name="email" id="email" placeholder="Email" />

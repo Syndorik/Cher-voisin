@@ -24,7 +24,7 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-center" id="menu-items">
-          <li><a href="index.php">Accueil <span class="sr-only">(current)</span></a></li>
+          <li><a href="index.php">Accueil </a></li>
           <li><a href="myObjects.php">Mes objets</a></li>
           <li><a href="objectsBorrowed.php">Objets empruntés</a></li>
           <li class="dropdown"><a class="dropdown-toggle dropdown" data-hover="dropdown" data-target="#" href="#" data-toggle="dropdown"><i class="glyphicon glyphicon-user"></i></a>

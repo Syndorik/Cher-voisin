@@ -28,8 +28,43 @@
           <li><a href="#fonctionnalities">Fonctionnalités</a></li>
           <li><a href="#try">Test sur ton campus !</a></li>
           <li><a href="Accueil_test.php">Inscription</a></li>
-          <li><a href="connection.php">Connexion</a></li>
+          <li><a href="#" id="connection_button" data-toggle="modal" data-target="#connection_modal">Connexion</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
+
+
+  <div id="connection_modal" class="container modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Connexion</h4>
+        </div>
+        <div class="modal-body">
+          <p><img src="images/logo_mini.png" alt="logo"></p>
+          <form class="form-group" action="index.html" method="post">
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                <input class="form-control" type="text" name="email" id="email_connection" placeholder="Email" />
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                <input class="form-control" type="password" name="pwd" id ="pass" placeholder="Mot de passe" />
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <div class="form-group button">
+              <div class="col-md-12 controls">
+                   <button type="submit" href="#" class="btn btn-primary pull-right" data-dismiss="modal"><i class="glyphicon glyphicon-log-in"></i>  Me connecter</button>
+              </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
