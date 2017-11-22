@@ -274,12 +274,32 @@ body {
   text-align: center;
 }
 
-.modal img{
+.modal-body{
+  margin: 20px 80px 5px 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal p{
   margin:auto;
+  padding-top:0px;
+  padding-bottom: 5px;
+}
+
+.modal .input-group{
+  margin-top: 20px;
 }
 
 .modal-footer {
   border-top:none;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0px;
+  margin-bottom: 10px;
+}
+
+.modal-footer div{
+  margin: auto;
 }
 
 
