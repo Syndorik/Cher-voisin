@@ -31,7 +31,7 @@
               <ul class="dropdown-menu">
                   <li><a href="myAccount.php">Mon compte</a></li>
                   <li><a href="friends.php">Mes amis</a></li>
-                  <li><a href="landing_visitor.php">Déconnexion</a></li>
+                  <li><a href="header_visitor.php">Déconnexion</a></li>
             </ul>
           </li>
           <li><form class="navbar-form navbar-left">
