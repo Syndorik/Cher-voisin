@@ -20,17 +20,31 @@ body {
   margin: auto;
 }
 
+.input-group{
+  max-width: 300px;
+  min-width: 200px;
+  width: 300px;
+}
+
+button{
+  max-width: 300px;
+}
 
 /******** HEADER ********/
 
 .navbar{
-  background-color: #FF9800;
-  position: relative;
+  background-color: white;
   font-size: 1.2em;
   border-radius: 0px;
   min-height: 70px;
   max-height: 90px;
 }
+
+.navbar-toggle{
+  margin-right: 15px;
+  margin-top: 20px;
+}
+
 
 @media (min-width: 768px) and (max-width: 1200px) {
     .navbar-collapse.collapse {
@@ -59,31 +73,7 @@ body {
     }
 }
 
-.navbar-header {
-	height: 68px;
-  padding : auto;
-}
-
-.navbar-fixed-top {
-    top: 0;
-    border-width: 0 0 0;
-}
-
-.navbar-default .navbar-toggle {
-	border-color: white;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: white;
-}
-
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-	background-color: transparent;
-	border-bottom: 1px solid white;
-}
-
 .dropdown-menu {
-	background-color: #FF9800;
 	color: white;
 	margin-top:; 0;
 	padding: 0 0 0 0;
@@ -93,53 +83,12 @@ body {
   font-size: 1em;
 }
 
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-	background-color: transparent;
-}
-
 .dropdown-menu>li>a {
-	color:white;
+	color:black;
 }
 
-.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
-	background-color: orange;
-	color: white;
-}
-
-.dropdown-menu>li {
-	padding: 0 0 0 0;
-	margin: 0 0 0 0;
-}
-
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-
-.dropdown{
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-menu{
-  display: none;
-  position: absolute;
-  z-index: 1;
-  padding-left: 3px;
-  padding-right: 7px;
-}
-
-.dropdown-menu li:hover{
-	background-color: ##FFA726;
-  text-decoration: none;
-  display: block;
-}
-
-.navbar-default .navbar-toggle:hover {
-	background-color: #FF9800;
-}
-
-.navbar-default .navbar-nav .open .dropdown-menu>li>a, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
-	color: white;
+.navbar-collapse{
+  background-color: white;
 }
 
 #logo {
@@ -159,7 +108,7 @@ body {
 }
 
 #menu-items>li>a {
-	color: white;
+	color:#FF9800 ;
 	margin: 0 3px 0 3px;
 }
 
@@ -171,9 +120,10 @@ body {
 	border-bottom: 1px solid transparent;
 }
 
-#menu-items>li:hover {
-	background-color: #FFA726;
-}
+#menu-items>li>a:hover {
+	color: black;
+  }
+
 
 
 /******** FOOTER ********/
@@ -307,7 +257,6 @@ body {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  min-width: 200px;
 }
 
 .modal form{
@@ -332,6 +281,171 @@ body {
 #inscription_modal .input-group{
   margin-top: 10px;
 }
+
+/*************** LANDING PAGE ****************/
+
+#header_landing{
+  margin: 0;
+}
+
+#header_landing li{
+  font-weight: bold;
+}
+
+#landing_container{
+  margin: 0;
+  padding: 0px;
+  width: inherit;
+}
+
+#landing_container section{
+  display: flex;
+  flex-direction: column;
+  padding: 100px 40px;
+}
+
+.inner-section{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.description_item{
+  margin: 40px;
+}
+
+#slideshow {
+  margin: 0px;
+  height:600px;
+  width: 100%;
+  background-size:cover;
+  /*background-image: url(images/campus_background.png);*/
+  background-position: center center;
+  background-color: silver;
+  text-align: center;
+}
+
+.group-centered{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  height:300px;
+  padding-top: 50px;
+}
+
+.margin_auto {
+  margin: auto;
+}
+
+
+#description_row{
+  background-color: rgb(0,0,0,0.1);
+  padding: 70px 20px;
+  text-align: center;
+}
+
+#description_row + div{
+  text-align: center;
+}
+
+#description_row p{
+  max-width: 300px;
+}
+
+.img-square{
+  width: 200px;
+  height: 200px;
+  max-width: 200px;
+  border : silver solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+#description_container{
+  margin-top: 70px;
+}
+
+#description_row h4{
+  margin-top: 20px;
+}
+
+#test_row{
+  background-color: silver;
+  text-align: center;
+}
+
+#test_row > div{
+  margin: auto;
+}
+
+#landing_container select{
+  max-width: 200px;
+  min-width: 150px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+/*
+#test_container .input-group{
+  margin-left: 20px;
+  margin-right: 20px;
+}*/
+
+#test_container form{
+  margin-top: 80px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#select_div{
+  margin-right: 60px;
+}
+
+.input-group-addon{
+  width: auto;
+}
+
+.row-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.fonctionnalities p{
+  max-width: 500px;
+}
+
+#inscription_section{
+  text-align: center;
+}
+
+#inscription_section button{
+  margin: auto;
+}
+
+#email_content{
+  min-height: 200px;
+}
+
+#contact input{
+  max-width: 1000px;
+}
+
+#contact{
+  text-align: center;
+}
+
+#contact form{
+  margin: auto;
+  width: 90%;
+}
+
+
+
 
 
 /******* MY OBJECTS ********/

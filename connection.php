@@ -76,7 +76,7 @@
         <div class="modal-footer">
           <div class="form-group button">
               <div class="col-md-12 controls">
-                   <button type="submit" href="index.php" class="btn btn-primary pull-right" data-dismiss="modal"><i class="glyphicon glyphicon-log-in"></i>  M'inscrire </button>
+                   <button type="submit" href="index.php" class="btn btn-primary pull-right" data-dismiss="modal"><i class="glyphicon glyphicon-log-in"></i><a href="welcome.php"></a>  M'inscrire </button>
               </div>
           </div>
         </div>
@@ -119,3 +119,5 @@
 
     </div>
   </div>
+
+  <?php include("welcome_message.php");?>

@@ -24,7 +24,7 @@
             <h3>Où nous contacter ? <i class="fa fa-comment-o fa-lg" aria-hidden="true"></i></h3>
             <a href="https://www.facebook.com/ShareCampus/"><img src="images/facebook.png" title="Notre page Facebook"></a>
             <a href="#"><img src="images/twitter.png" title="Twitter"></a>
-            <a href="mail.php"><img src="images/mail.png" title=""></a>
+            <a href="mail.php" class="fa fa-facebook"></a>
           </div>
         </div>
     </div><!-- END of row -->
