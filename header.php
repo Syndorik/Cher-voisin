@@ -8,10 +8,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css"/>
     <link rel="stylesheet" href="style.css" type="text/css"/>
     <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <nav class="navbar navbar-default navbar-fixed-top navbar-center">
-    <div class="container-fluid container">
+<div class="wrapper">
+  <div id="header_wrapper"><nav class="navbar navbar-default navbar-fixed-top navbar-center">
+    <div class="container-fluid container" id="header_container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -35,19 +38,19 @@
                   <li><a href="landing_page.php">Déconnexion</a></li>
             </ul>
           </li>
-          <li><form class="navbar-form navbar-left">
+          <li><form class="navbar-left">
             <div class="input-group">
               <input type="text" class="form-control" placeholder="Rechercher un objet" id="search">
-              <div class="input-group-btn">
+              <span class="input-group-btn">
                 <button class="btn btn-default" type="submit">
                   <i class="glyphicon glyphicon-search"></i>
                 </button>
-              </div>
+              </span>
             </div>
           </form></li>
           <!--<li><a href="Accueil-test.php">Inscription</a></li>
           <li><a href="#">Connexion</a></li>-->
         </ul>
       </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+    </div><!-- /.container-fluid --></div>
   </nav>

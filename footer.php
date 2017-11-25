@@ -21,10 +21,9 @@
             </ul>
           </div>
           <div id="social-media" class="col-sm-4">
-            <h3>Où nous contacter ? <i class="fa fa-comment-o fa-lg" aria-hidden="true"></i></h3>
+            <h3>Où nous contacter ?</h3>
             <a href="https://www.facebook.com/ShareCampus/"><img src="images/facebook.png" title="Notre page Facebook"></a>
             <a href="#"><img src="images/twitter.png" title="Twitter"></a>
-            <a href="mail.php" class="fa fa-facebook"></a>
           </div>
         </div>
     </div><!-- END of row -->
@@ -34,3 +33,6 @@
 </div><!-- END of wrapper -->
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>

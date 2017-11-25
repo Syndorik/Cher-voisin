@@ -12,8 +12,8 @@ body {
 }
 
 .wrapper{
-  position:relative;
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .container{
@@ -21,14 +21,82 @@ body {
 }
 
 .input-group{
-  max-width: 300px;
+  max-width: 400px;
   min-width: 200px;
-  width: 300px;
+  width: 400px;
 }
 
 button{
   max-width: 300px;
 }
+
+#header_wrapper{
+  min-height: 70px;
+  max-height: 90px;
+  margin: auto;
+}
+
+.category{
+  border: 1px solid #ccc;
+  border-radius: 0;
+}
+
+.checkbox {
+  padding-left: 20px; }
+  .checkbox label {
+    display: inline-block;
+    position: relative;
+    padding-left: 5px; }
+    .checkbox label::before {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      width: 17px;
+      height: 17px;
+      left: 0;
+      margin-left: -20px;
+      border: 1px solid #cccccc;
+      border-radius: 3px;
+      background-color: #fff;
+      -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+      -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+      transition: border 0.15s ease-in-out, color 0.15s ease-in-out; }
+    .checkbox label::after {
+      display: inline-block;
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      left: 0;
+      top: 0;
+      margin-left: -20px;
+      padding-left: 3px;
+      padding-top: 1px;
+      font-size: 11px;
+      color: #555555; }
+  .checkbox input[type="checkbox"] {
+    opacity: 0; }
+    .checkbox input[type="checkbox"]:focus + label::before {
+      outline: thin dotted;
+      outline: 5px auto -webkit-focus-ring-color;
+      outline-offset: -2px; }
+    .checkbox input[type="checkbox"]:checked + label::after {
+      font-family: 'FontAwesome';
+      content: "\f00c"; }
+    .checkbox input[type="checkbox"]:disabled + label {
+      opacity: 0.65; }
+      .checkbox input[type="checkbox"]:disabled + label::before {
+        background-color: #eeeeee;
+        cursor: not-allowed; }
+  .checkbox.checkbox-circle label::before {
+    border-radius: 50%; }
+  .checkbox.checkbox-inline {
+    margin-top: 0; }
+
+.checkbox-primary input[type="checkbox"]:checked + label::before {
+  background-color: #428bca;
+  border-color: #428bca; }
+.checkbox-primary input[type="checkbox"]:checked + label::after {
+  color: #fff; }
 
 /******** HEADER ********/
 
@@ -38,6 +106,7 @@ button{
   border-radius: 0px;
   min-height: 70px;
   max-height: 90px;
+  margin: auto;
 }
 
 .navbar-toggle{
@@ -45,6 +114,11 @@ button{
   margin-top: 20px;
 }
 
+#header_container{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
 
 @media (min-width: 768px) and (max-width: 1200px) {
     .navbar-collapse.collapse {
@@ -124,16 +198,26 @@ button{
 	color: black;
   }
 
+nav li{
+  font-weight: bold;
+}
 
+#search{
+  font-weight: normal;
+}
+
+li form{
+  padding: inherit;
+  margin-left: 20px;
+};
 
 /******** FOOTER ********/
 
 #footer-wrapper{
   background-color: #FF9800;
   width: 100%;
-  margin-top: auto;
   text-align: center;
-  margin: 0 0 0 0;
+  margin: auto;
   margin-bottom: 0px;
 }
 
@@ -215,7 +299,9 @@ button{
 }
 
 #copyrights p{
-  margin: 0 0 2px;
+  /*margin: 0 0 2px;*/
+  margin: auto;
+  text-align: center;
 }
 
 /******** CONNEXION / INSCRIPTION *********/
@@ -288,10 +374,6 @@ button{
   margin: 0;
 }
 
-#header_landing li{
-  font-weight: bold;
-}
-
 #landing_container{
   margin: 0;
   padding: 0px;
@@ -338,7 +420,6 @@ button{
 .margin_auto {
   margin: auto;
 }
-
 
 #description_row{
   background-color: rgb(0,0,0,0.1);
@@ -388,6 +469,7 @@ button{
   margin-left: 20px;
   margin-bottom: 30px;
 }
+
 /*
 #test_container .input-group{
   margin-left: 20px;
@@ -433,6 +515,9 @@ button{
 
 #contact input{
   max-width: 1000px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #contact{
@@ -441,10 +526,44 @@ button{
 
 #contact form{
   margin: auto;
-  width: 90%;
+  padding: 30px;
+  width: 100%;
 }
 
 
+
+/********** WELCOME ***********/
+
+#welcome_container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-height: -webkit-fill-available;
+}
+
+#welcome_container > h1{
+  margin-bottom: 50px;
+  margin-top: 80px;
+}
+
+
+#object_section{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#object_form{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+}
+
+#object_form > .input-group{
+  padding: 15px 0px;
+  margin: auto;
+}
 
 
 
