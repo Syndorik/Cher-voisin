@@ -11,60 +11,63 @@
     <div id="object_list">
 
       <form id="object_form" action="index.html" method="post">
-        <div class="checkbox checkbox-primary">
-          <input id="checkbox1" type="checkbox">
-          <label for="checkbox1">
-              Casserole
-          </label>
+        <div class="align-items">
+          <div class="checkbox checkbox-primary">
+            <input id="checkbox1" type="checkbox">
+            <label for="checkbox1">
+                Casserole
+            </label>
+          </div>
+          <div class="checkbox checkbox-primary">
+            <input id="checkbox1" type="checkbox">
+            <label for="checkbox1">
+                Poêle
+            </label>
+          </div>
+          <div class="checkbox checkbox-primary">
+            <input id="checkbox1" type="checkbox">
+            <label for="checkbox1">
+                Aspirateur
+            </label>
+          </div>
+          <div class="checkbox checkbox-primary">
+            <input id="checkbox1" type="checkbox">
+            <label for="checkbox1">
+                Fer à repasser
+            </label>
+          </div>
+          <div class="checkbox checkbox-primary">
+            <input id="checkbox1" type="checkbox">
+            <label for="checkbox1">
+                Moule à gateaux
+            </label>
+          </div>
+          <div class="checkbox checkbox-primary">
+            <input id="checkbox1" type="checkbox">
+            <label for="checkbox1">
+                Rouleau à patisserie
+            </label>
+          </div>
+          <div class="checkbox checkbox-primary">
+            <input id="checkbox1" type="checkbox">
+            <label for="checkbox1">
+                Fouet
+            </label>
+          </div>
+          <div class="checkbox checkbox-primary">
+            <input id="checkbox1" type="checkbox">
+            <label for="checkbox1">
+                Casserole
+            </label>
+          </div>
+          <div class="checkbox checkbox-primary">
+            <input id="checkbox1" type="checkbox">
+            <label for="checkbox1">
+                Casserole
+            </label>
+          </div>
         </div>
-        <div class="checkbox checkbox-primary">
-          <input id="checkbox1" type="checkbox">
-          <label for="checkbox1">
-              Poêle
-          </label>
-        </div>
-        <div class="checkbox checkbox-primary">
-          <input id="checkbox1" type="checkbox">
-          <label for="checkbox1">
-              Aspirateur
-          </label>
-        </div>
-        <div class="checkbox checkbox-primary">
-          <input id="checkbox1" type="checkbox">
-          <label for="checkbox1">
-              Fer à repasser
-          </label>
-        </div>
-        <div class="checkbox checkbox-primary">
-          <input id="checkbox1" type="checkbox">
-          <label for="checkbox1">
-              Moule à gateaux
-          </label>
-        </div>
-        <div class="checkbox checkbox-primary">
-          <input id="checkbox1" type="checkbox">
-          <label for="checkbox1">
-              Rouleau à patisserie
-          </label>
-        </div>
-        <div class="checkbox checkbox-primary">
-          <input id="checkbox1" type="checkbox">
-          <label for="checkbox1">
-              Fouet
-          </label>
-        </div>
-        <div class="checkbox checkbox-primary">
-          <input id="checkbox1" type="checkbox">
-          <label for="checkbox1">
-              Casserole
-          </label>
-        </div>
-        <div class="checkbox checkbox-primary">
-          <input id="checkbox1" type="checkbox">
-          <label for="checkbox1">
-              Casserole
-          </label>
-        </div>
+
         <div class="input-group button-group">
             <input class="form-control" type="text" name="" placeholder="Nouvel objet à prêter" aria-describedby="plus-button">
             <span class="input-group-btn"><button class="btn btn-default form-control" type="button" name="button"><i class="glyphicon glyphicon-plus"></i></button></span>
@@ -81,5 +84,5 @@
     </div>
   </section>
 </div>
-
+<?php // TODO: rajouter boutons pour pouvoir mettre autant d'objets qu'on veut ?>
 <?php include("footer.php");?>

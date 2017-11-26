@@ -14,16 +14,17 @@ body {
 .wrapper{
   display: flex;
   flex-direction: column;
+  flex:1;
+  min-height: fit-content;
 }
 
 .container{
   margin: auto;
+  padding: 0 40px 40px 40px;
 }
 
 .input-group{
   max-width: 400px;
-  min-width: 200px;
-  width: 400px;
 }
 
 button{
@@ -98,6 +99,7 @@ button{
 .checkbox-primary input[type="checkbox"]:checked + label::after {
   color: #fff; }
 
+
 /******** HEADER ********/
 
 .navbar{
@@ -107,6 +109,7 @@ button{
   min-height: 70px;
   max-height: 90px;
   margin: auto;
+  padding: 0 15px;
 }
 
 .navbar-toggle{
@@ -558,6 +561,7 @@ li form{
   display: flex;
   flex-direction: column;
   padding-top: 15px;
+  flex
 }
 
 #object_form > .input-group{
@@ -565,7 +569,86 @@ li form{
   margin: auto;
 }
 
+.align-items{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 
+  .align-items div[class="input-group"]{
+    align-self: center;
+  }
+
+
+/*********** MYACCOUNT **********/
+
+#account_container section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.private-info{}
+
+  .private-info ul{
+    list-style: none;
+  }
+
+  .private-info-token{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .private-info-token h4{
+      font-size: 6em;
+      font-style: normal;
+    }
+
+    .private-info-token p{
+      margin: 20px;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      background-color: #ffff00;
+      }
+
+
+.titles{
+  flex: 1;
+}
+
+  .titles > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    min-width: 200px;
+  }
+
+    .badges-item{
+      display: flex;
+      align-items: center;
+      height: fit-content;
+      padding-right: 30px;
+    }
+
+      .badges-item .badge-pic{
+        margin: 10px 20px;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        background-color: silver;
+      }
+
+    .progress-bar-container{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 0 20px;
+    }
 
 /******* MY OBJECTS ********/
 

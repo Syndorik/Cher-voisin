@@ -1,51 +1,80 @@
 <?php include("header.php");?>
-<div class="container">
+<div class="container" id="account_container">
+
     <h1 class="text-center">Mon compte</h1>
-    <div class="row well" id="info-row">
-        <h2>Infos</h2>
-        <div class="col-md-2">
-            <h4>Mes données</h4>
-            <ul>
-                <li>Pseudo : </li>
-                <li>Prénom :</li>
-                <li>Nom :</li>
-                <li>Mail :</li>
-                <li>Batiment :</li>
-                <li>Chambre :</li>
-            </ul>
+    <section class="private-info well">
+      <div class="private-info-item">
+        <h4>Infos personnelles</h4>
+        <div class="data">
+          <ul>
+            <li>Prénom : Alexandre</li>
+            <li>Nom : Allani</li>
+            <li>Email : alexandre.allani@telecom-bretagne.eu</li>
+            <li>Campus : IMT Brest</li>
+            <li>Batiment : i11</li>
+            <li>Chambre : 9</li>
+            <li><a href="#">Modifier</a></li>
+          </ul>
         </div>
-        <div class="col-md-2">
-            <h4>Jetons</h4>
-        </div>
-
-        <div class="col-md-2">
-            <h4>Ma note</h4>
-        </div>
-        <div class="col-md-3">
-            <h4>Mes titres</h4>
-        </div>
-        <div class="col-md-3">
-            <h4>Plus qu'à</h4>
-            <p><ul>
-                <li>Preter x objets avant de devenir ?</li>
-                <li>Emprunter x objets avant de devenir ?</li>
-                <li>Parrainer x personnes avant de devenir gourou !</li>
-            </ul></p>
-        </div>
-    </div><!-- END of row -->
-    <div class="row well" id="godfather-row">
-      <h1>Parraine un de tes voisins et reçoit !</h1>
-      <form  action="index.html" method="post">
-        <div class="col-md-4 col-s-12 input-group input-group-btn">
-          <input type="email" name=="godchild" class="form-control">
-          <span id="plus-button" class="input-group-btn"><button class="btn btn-default form-control" type="button" name="button"><i class="glyphicon glyphicon-send"></i></button></span>
-        </div>
-
-      </form>
-
       </div>
-    </div>
+      <div class="private-info-token">
+        <h4>18</h4>
+        <p><img src="" alt=""></p>
+      </div>
+    </section><!--  END of information section -->
+    <section class="titles">
+      <div>
+        <h4>Mes badges</h4>
+        <div class="badges-item">
+          <p class="badge-pic"><img src="" alt=""></p>
+          <p>Grand gourou</p>
+        </div>
+        <div class="badges-item">
+          <p class="badge-pic"><img src="" alt=""></p>
+          <p>Grand gourou</p>
+        </div>
+        <div class="badges-item">
+          <p class="badge-pic"><img src="" alt=""></p>
+          <p>Grand gourou</p>
+        </div>
+      </div>
+      <div class="">
+        <h4>Progression</h4>
+        <div class="progress-bar-container">
+          <p>Prochain titre prêteur</p>
+          <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+            aria-valuemin="0" aria-valuemax="100" style="width:40%">
+              Plus que 4 prêts à faire !
+            </div>
+          </div>
+        </div>
+        <div class="progress-bar-container">
+          <p>Prochain titre emprunteur</p>
+          <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+            aria-valuemin="0" aria-valuemax="100" style="width:60%">
+              Plus que 3 emprunts à faire !
+            </div>
+          </div>
+        </div>
+        <div class="progress-bar-container">
+          <p>Prochain titre prêteur</p>
+          <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+            aria-valuemin="0" aria-valuemax="100" style="width:80%">
+              Plus que 2 parrainages !
+            </div>
+          </div>
+        </div>
+      </div>
 
-</div>
-
+    </section>
+    <section class="marks well">
+      <h1>En cours !!!!</h1>
+    </section>
+    <section class="historic">
+      <h1>En cours</h1>
+    </section>
+</div><!-- END of container -->
 <?php include("footer.php");?>
