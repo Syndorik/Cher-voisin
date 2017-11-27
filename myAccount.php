@@ -4,7 +4,7 @@
     <h1 class="text-center">Mon compte</h1>
     <section class="private-info well">
       <div class="private-info-item">
-        <h4>Infos personnelles</h4>
+        <h2>Infos personnelles</h2>
         <div class="data">
           <ul>
             <li>Prénom : Alexandre</li>
@@ -17,14 +17,18 @@
           </ul>
         </div>
       </div>
-      <div class="private-info-token">
-        <h4>18</h4>
-        <p><img src="" alt=""></p>
+      <div class="private-info-item">
+        <h2>Jetons</h2>
+        <div class="private-info-token">
+          <h4>18</h4>
+          <p><img src="" alt=""></p>
+        </div>
       </div>
+
     </section><!--  END of information section -->
     <section class="titles">
       <div>
-        <h4>Mes badges</h4>
+        <h2>Mes badges</h2>
         <div class="badges-item">
           <p class="badge-pic"><img src="" alt=""></p>
           <p>Grand gourou</p>
@@ -39,7 +43,7 @@
         </div>
       </div>
       <div class="">
-        <h4>Progression</h4>
+        <h2>Progression</h2>
         <div class="progress-bar-container">
           <p>Prochain titre prêteur</p>
           <div class="progress">
@@ -71,7 +75,34 @@
 
     </section>
     <section class="marks well">
-      <h1>En cours !!!!</h1>
+      <div >
+        <h2>Ma note</h2>
+        <div class="marks-item">
+          <h4>3/5</h4>
+          <div >
+            <span class="fa fa-star fa-2x checked"></span>
+            <span class="fa fa-star fa-2x checked"></span>
+            <span class="fa fa-star fa-2x checked"></span>
+            <span class="fa fa-star fa-2x"></span>
+            <span class="fa fa-star fa-2x"></span>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <h2>Mes dernières reviews</h2>
+        <div class="reviews">
+          <div class="reviews-item">
+            <h4>Benji <span><h6>Note donnée : 4</h6></span></h4>
+            <p>Ton appareil à raclette m'a vraiment sauvé la vie Alex merci !</p>
+          </div>
+          <div class="reviews-item">
+            <header>
+              Paulo, note donnée : 4
+            </header>
+            <p>Ton moule à gateau est vraiment génial ! Encore merci !</p>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="historic">
       <h1>En cours</h1>

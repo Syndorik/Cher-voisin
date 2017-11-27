@@ -22,7 +22,10 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" id="logo"><img src="images/logo_mini.png" id="logo-pic" ></a>
+          <div id="logo_name">
+            <a class="navbar-brand" id="logo"><img src="images/logo_mini.png" id="logo-pic" ></a>
+            <h3>Share <br>Campus</h3>
+          </div>
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -45,7 +48,7 @@
 
     <section id="slideshow">
       <div class="group-centered">
-        <h1 class="margin_auto">SHARE CAMPUS</h1>
+        <h1 class="margin_auto">Share Campus</h1>
         <h2 class="margin_auto">Prêter et emprunter en toute simplicité</h2>
         <button class="margin_auto" type="button" name="button">Rejoins la communauté !</button>
       </div>

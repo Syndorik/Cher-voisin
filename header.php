@@ -16,14 +16,19 @@
   <div id="header_wrapper"><nav class="navbar navbar-default navbar-fixed-top navbar-center">
     <div class="container-fluid container" id="header_container">
       <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
+      <div class="navbar-header" id="logo_name_container">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" id="logo"><img src="images/logo_mini.png" id="logo-pic" ></a>
+          <div id="logo_name">
+            <a class="navbar-brand" id="logo"><img src="images/logo_mini.png" id="logo-pic" ></a>
+            <h3>Share <br>Campus</h3>
+          </div>
+
+
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -48,7 +53,7 @@
               </span>
             </div>
           </form></li>
-          
+
           <!--<li><a href="Accueil-test.php">Inscription</a></li>
           <li><a href="#">Connexion</a></li>-->
         </ul>
