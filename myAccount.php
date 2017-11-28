@@ -105,7 +105,10 @@
       </div>
     </section>
     <section class="historic">
-      <h1>En cours</h1>
+      <h2>Historique</h2>
+      <div class="historic-item">
+        
+      </div>
     </section>
 </div><!-- END of container -->
 <?php include("footer.php");?>

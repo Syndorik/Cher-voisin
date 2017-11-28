@@ -702,8 +702,18 @@ li form{
     }
 
     .reviews-item{
-      border: 1px solid grey;
+      border: 1px solid silver;
     }
+
+.historic{
+  flex-direction: column;
+}
+
+  .historic-item{
+    border: 1px solid silver;
+    height: 100px;
+    width: 600px;
+  }
 
 /******* MY OBJECTS ********/
 
