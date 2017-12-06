@@ -9,16 +9,28 @@ html{
     src: url('Milkshake/Milkshake.ttf');
 }
 
+
+
+.well{
+  margin-top: 20px;
+}
+
 body {
   height: 100%;
   width: 100%;
   min-height: 100%;
   display: flex;
   flex-direction: column;
+  /*background-image: url(images/share_campus_1.svg);
+  background-position: center;
+  background-size: cover;*/
 }
 
 h1{
-  font-family: milkshake;
+  font-family: lobster;
+   /*text-shadow: 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black;*/
+  font-weight: bold;
+  color: #2fa8ff;
 }
 
 .wrapper{
@@ -41,10 +53,13 @@ button{
   max-width: 300px;
 }
 
+.btn-success{
+  background-color: #2fa8ff;
+}
+
 #header_wrapper{
-  min-height: 70px;
+  min-height: 85px;
   max-height: 90px;
-  margin: auto;
 }
 
 .category{
@@ -110,17 +125,37 @@ button{
   color: #fff; }
 
 
+.single-item{
+  border-radius: 15px;
+  text-align: center;
+}
+
+.table>tbody>tr>td{
+  border-top:0px;
+}
+
+.btn-category{
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
+  border-radius: 0;
+}
+
+
 /******** HEADER ********/
+
+#header_wrapper{
+    margin: 0 auto 60px auto;
+}
 
 .navbar{
   background-color: white;
-  font-size: 1.2em;
+  font-size: 1.4em;
   border-radius: 0px;
-  min-height: 75px;
-  max-height: 76px;
-  margin: auto;
-  padding: 0 15px;
+  min-height: 85px;
+  max-height: 86px;
+  padding: 0 20px;
   border-width: 0 0 1px 0;
+  box-shadow: 0px 3px 10px rgba(0,0,0,.20);
 }
 
 .navbar-toggle{
@@ -128,15 +163,25 @@ button{
   margin-top: 20px;
 }
 
+#bs-example-navbar-collapse-1{
+  flex:1;
+}
+
 #logo_name_container{
-  height: 70px;
-  max-height: 75px;
+  padding-right: 20px;
+  height: 83px;
+  max-height: 83px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column-reverse;
 }
 
 #header_container{
   width: 100%;
   padding: 0;
   margin: 0;
+  display: flex;
+  justify-content: space-around;
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
@@ -194,19 +239,25 @@ button{
 #logo-pic{
   overflow:hidden;
   display: inline-block;
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
 }
 
 #logo_name{
   display: flex;
   color: #FF9800;
-  font-family: "Milkshake";
-  font-size: 1.2em;
+  font-family: Lobster ;
+  font-size: 1.8em;
 }
 
 #logo_name h3{
-  margin: 10px 0px 0px 0px;
+  margin: 17px 0px 0px 0px;
+}
+
+#menu-items{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 #menu-items>li>a {
@@ -215,7 +266,7 @@ button{
 }
 
 #menu-items>li {
-	padding: 10px 5px 10px 0;
+	padding: 14px 5px 10px 0;
 }
 
 #menu-items>li:not(.active) {
@@ -230,29 +281,45 @@ nav li{
   font-weight: bold;
 }
 
+#search_div{
+  width: 100%;
+  max-width: 95%;
+}
+
+#search_li{
+  flex:1;
+}
+
+  #search_div button{
+    height: 40px;
+  }
+
 #search{
   font-weight: normal;
+  height: 40px;
+  width: 100%;
+  font-size:20px;
 }
 
 li form{
-  padding: inherit;
+  padding: 10px 0px;
   margin-left: 20px;
+  width: 100%;
 };
 
 /******** FOOTER ********/
 
-#footer-wrapper{
+.footer-wrapper{
   background-color: #FF9800;
   width: 100%;
   text-align: center;
-  margin: auto;
-  margin-bottom: 0px;
 }
 
 #footer {
 	background-color: #FF9800;
 	color:white;
   max-height: 100%;
+  margin-top: 100px;
 }
 
 #footer-content {
@@ -265,51 +332,38 @@ li form{
 	margin: 0 10px;
 }
 
-#pages {
-	padding: 20px 5px 3px 5px;
+.footer-column {
+	padding: 10px 5px 3px 5px;
 }
 
-#pages ul {
+.footer-column ul {
 	list-style: none;
 	padding: 0 30px 0 10px;
 }
 
-#pages li {
+.footer-column li {
 	margin-bottom: 10px;
 	text-align: left;
 }
 
-#pages a {
+.footer-column a {
 	color: white;
 	text-decoration: none;
 	margin: 0 20px 0 20px;
-	font-size: 1em;
+	font-size: 1.2em;
 	letter-spacing: 0.5px;
 }
 
-#pages li:hover>a {
+.footer-column li:hover>a {
 	color: #00B8DE;
 	transition: 0.5s;
 }
 
-#social-media {
-	padding: 10px 0 10px 0;
-	text-align: center;
-}
 
-#social-media h3, #acknowledgments h3 {
-	color: white;
-	padding-bottom: 15px;
-}
 
 #social-media a img {
 	width: 55px;
-	margin: 10px 10px 10px 10px;
-}
-
-#acknowledgments {
-	margin: 10px 0;
-	text-align: justify;
+	/*margin: 10px 10px 10px 10px;*/
 }
 
 #copyrights {
@@ -715,54 +769,204 @@ li form{
     width: 600px;
   }
 
+/********* INDEX ***********/
+
+#objects_season{
+  max-width: 2000px;
+  max-height: 500px;
+  height: 500px;
+  margin-top: 0;
+  padding:0px;
+}
+
+  #objects_season .carousel{
+    max-height: 100%;
+  }
+
+    .carousel-inner{
+      max-height: 500px;
+    }
+
+      .carousel-inner .item{
+        max-height: 100%;
+      }
+
+        #objects_season .carousel img{
+          max-height: 100%;
+        }
+
+.news-section{
+  border: 1px solid silver;
+  margin: auto;
+  height: 250px;
+  margin-top: 50px;
+}
+
+.news-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+  .news-section{
+    max-width: 500px;
+    min-width: 500px;
+    padding: 10px;
+  }
+
+.news-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+  .objects-container-display{
+    max-width: 300px;
+    margin: auto;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 500px;
+    align-items: center;
+    padding: 5px;
+
+
+  }
+
+  #cooking-section{
+    background-image: url(./images/kitchen.png);
+    background-position: center center;
+    background-size: cover;
+  }
+
+    .object-display{
+      padding: 10px;
+      margin: 5px auto;
+      height: 30px;
+      max-width: 100px;
+      font-weight: bold;
+      background-color: #ffa726;
+      border-radius: 10px;
+      min-width: 200px;
+    }
+
 /******* MY OBJECTS ********/
 
-#newObject{
-  margin-left: 5%;
-  min-width: 30%;
-  max-width: 200%;
-}
-
-#myObjects table{
-  width: 75%;
-  max-height: 100%;
-  margin-top: 10px;
-}
-
-td, th{
+#myObjects-container{
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
-table{
-  border-collapse:inherit;
-  border-width: 0px;
-}
+  #myObjects-container form{
+    margin-top: 50px;
+  }
 
+  #myObjects-container section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+#newObject{
+  margin: auto;
+  min-width: 50%;
+  box-shadow: 4px 4px 15px rgba(0,0,0,.18);
+}
 
 
 /******* OBJECTS BORROWED *******/
 
-#objectsBorrowed .container{
+#objectsBorrowed {
   padding-top: 64px;
-}
-
-#objectsBorrowed .table{
-  margin: auto;
-}
-
-#objectsBorrowed .row{
+  text-align: center;
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 0;
 }
 
-/***********************/
+  .objects-container{
+    padding-top: 40px;
+    color: white;
+    /*margin : auto;
+    display: flex;
+    flex-direction: column;*/
+  }
 
-tbody{
-  vertical-align: middle;
+    .object-borrowed{
+      margin: auto;
+      border-radius: 10px;
+      display:flex;
+      justify-content: space-between;
+      max-width: 700px;
+      height: 70px;
+      align-items: center;
+      padding: 10px;
+      background-color: #ffa726;
+      font-size: 1.4em;
+      box-shadow: 8px 8px 10px rgba(0,0,0,.17);
+    }
+
+    #newObject{
+      height: 40px;
+    }
+
+    #newObject input{
+      height: 40px;
+      font-size: 1.4em;
+    }
+
+    #newObject button{
+      height: 40px;
+      font-size: medium;
+    }
+
+
+
+
+/************* NOTIFICATIONS ****************/
+
+#notifications_container{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
 }
 
-tr{
-  vertical-align: middle;
-}
+  .message-container{
+    margin: 30px auto 30px auto;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 800px;
+    width: 800px;
+    height: fit-content;
+    font-size: 1.4em;
+    box-shadow: 8px 8px 10px rgba(0,0,0,.20);
+  }
+
+    .message-header{
+      border-radius: 10px 10px 0 0;
+      height: 50px;
+      margin: auto;
+      background-color: #FF9800;
+      padding: 10px;
+    }
+
+    .message-body{
+      background-color: #ffcb6c;
+      border-radius: 0 0 10px 10px;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 15px;
+    }
+
+      .message-body > div{
+        margin: auto 0 auto 0;
+      }
+
+
 
 /******* INSCRIPTION *********/
 

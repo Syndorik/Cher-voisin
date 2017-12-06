@@ -50,6 +50,7 @@
       <div class="group-centered">
         <h1 class="margin_auto">Share Campus</h1>
         <h2 class="margin_auto">Prêter et emprunter en toute simplicité</h2>
+        <h2>Rajouter donnée privé</h2>
         <button class="margin_auto" type="button" name="button">Rejoins la communauté !</button>
       </div>
     </section><!-- END of slideshow section -->

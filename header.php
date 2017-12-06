@@ -13,7 +13,7 @@
 </head>
 <body>
 <div class="wrapper">
-  <div id="header_wrapper"><nav class="navbar navbar-default navbar-fixed-top navbar-center">
+  <div id="header_wrapper"><nav class="navbar navbar-default navbar-fixed-top navbar-center bg-faded" >
     <div class="container-fluid container" id="header_container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header" id="logo_name_container">
@@ -28,23 +28,13 @@
             <h3>Share <br>Campus</h3>
           </div>
 
-
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-center" id="menu-items">
-          <li><a href="index.php">Accueil </a></li>
-          <li><a href="myObjects.php">Mes objets</a></li>
-          <li><a href="objectsBorrowed.php">Objets empruntés</a></li>
-          <li class="dropdown"><a class="dropdown-toggle dropdown" data-hover="dropdown" data-target="#" href="#" data-toggle="dropdown"><i class="glyphicon glyphicon-user"></i></a>
-              <ul class="dropdown-menu">
-                  <li><a href="myAccount.php">Mon compte</a></li>
-                  <li><a href="friends.php">Mes amis</a></li>
-                  <li><a href="landing_page.php">Déconnexion</a></li>
-            </ul>
-          </li>
-          <li><form class="navbar-left">
-            <div class="input-group">
+          <li><a href="index.php"><i class="glyphicon glyphicon-home fa-lg"></i></a></li>
+          <li id="search_li"><form class="navbar-left">
+            <div class="input-group" id="search_div">
               <input type="text" class="form-control" placeholder="Rechercher un objet" id="search">
               <span class="input-group-btn">
                 <button class="btn btn-default" type="submit">
@@ -53,6 +43,18 @@
               </span>
             </div>
           </form></li>
+          <li><a href="myObjects.php">Mes objets</a></li>
+          <li><a href="objectsBorrowed.php">Mes emprunts</a></li>
+          <li><a href="fonctionnalities.php">Fonctionnalités </a></li>
+          <li><a href="notifications.php"><i class="glyphicon glyphicon-inbox fa-lg"></i></a></li>
+          <li class="dropdown"><a class="dropdown-toggle dropdown" data-hover="dropdown" data-target="#" href="#" data-toggle="dropdown"><i class="glyphicon glyphicon-user fa-lg"></i></a>
+              <ul class="dropdown-menu">
+                  <li><a href="myAccount.php">Mon compte</a></li>
+                  <li><a href="friends.php">Parrainage et amis</a></li>
+                  <li><a href="landing_page.php">Déconnexion</a></li>
+            </ul>
+          </li>
+
 
           <!--<li><a href="Accueil-test.php">Inscription</a></li>
           <li><a href="#">Connexion</a></li>-->

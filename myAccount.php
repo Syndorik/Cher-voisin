@@ -31,11 +31,11 @@
         <h2>Mes badges</h2>
         <div class="badges-item">
           <p class="badge-pic"><img src="" alt=""></p>
-          <p>Grand gourou</p>
+          <p>Super prêteur</p>
         </div>
         <div class="badges-item">
           <p class="badge-pic"><img src="" alt=""></p>
-          <p>Grand gourou</p>
+          <p>Super prêteur</p>
         </div>
         <div class="badges-item">
           <p class="badge-pic"><img src="" alt=""></p>
@@ -107,7 +107,7 @@
     <section class="historic">
       <h2>Historique</h2>
       <div class="historic-item">
-        
+
       </div>
     </section>
 </div><!-- END of container -->
