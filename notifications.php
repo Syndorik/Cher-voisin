@@ -38,7 +38,7 @@
 
   <div class="message-container">
     <div class="message-header">
-      Tu dois rendre un objet !
+      Objet à rendre bientôt !
     </div>
     <div class="message-body">
       <div class="message-left" >

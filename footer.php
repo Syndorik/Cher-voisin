@@ -27,7 +27,7 @@
               <a href="#"><img src="images/twitter.png" title="Twitter"></a>
 
             </div>
-            <a href="#">Nous contacter par mail :</a>
+            <a href="#">Par mail :</a>
             <a href="#">s3-projet-39@mlistes.telecom-bretagne.eu</a>
 
           </div>

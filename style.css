@@ -983,6 +983,38 @@ li form{
     }
 
 
+/********** SEARCH RESULT ************/
+
+#search_container{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+  #search_container form{
+    margin: 30px auto 30px auto;
+  }
+
+  #search_container span{
+    margin-right: 10px;
+    /*color: grey;*/
+  }
+
+#search_result_input{
+  border: 0px solid white;
+  border-bottom: 1px solid #ff9800;
+  height: 60px;
+  width: 600px;
+  font-size: 3.5em;
+  background-color: transparent;
+  padding-bottom: 0;
+  /*text-align: center;*/
+}
+
+
+
+
+
 
 /******* INSCRIPTION *********/
 
