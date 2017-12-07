@@ -26,7 +26,7 @@
 
       <div class="object-borrowed">
         <div class="object-left" >
-          <strong>Assiettes</strong>
+          <strong>Aspirateur</strong>
         </div>
         <div class="buttons-right">
           <button class="btn btn-info btn-lg" type="button" name="button"><i class="glyphicon glyphicon-cog"></i></button>
@@ -61,7 +61,7 @@
       <div class="objects-container">
         <div class="object-borrowed">
           <div class="object-left" >
-            <strong>Moule</strong>
+            <strong>Saladier</strong>
           </div>
           <div class="buttons-right">
             <button class="btn btn-info btn-lg" type="button" name="button"><i class="glyphicon glyphicon-cog"></i></button>

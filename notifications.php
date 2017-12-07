@@ -9,7 +9,7 @@
     </div>
     <div class="message-body">
       <div class="message-left" >
-        <strong>Moule à geateaux</strong> demandé(e) par <a href="#" class="user">Alex</a> pour le 16/12/17
+        <strong>Aspirateur</strong> demandé par <a href="#" class="user">Alex</a> pour le 16/12/17
       </div>
       <div class="buttons-right">
         <button class="btn btn-info btn-lg" type="button" name="button"><i class="glyphicon glyphicon-envelope"></i></button>
@@ -26,7 +26,7 @@
     </div>
     <div class="message-body">
       <div class="message-left" >
-        <strong>Moule à geateaux</strong> demandé(e) à <a href="#" class="user">Alex</a> pour le 16/12/17
+        <strong>Moule à gateaux</strong> demandé(e) à <a href="#" class="user">Alex</a> pour le 23/01/18
       </div>
       <div class="buttons-right">
         <button class="btn btn-info btn-lg" type="button" name="button"><i class="glyphicon glyphicon-envelope"></i></button>
@@ -38,16 +38,16 @@
 
   <div class="message-container">
     <div class="message-header">
-      Demande d'objet
+      Tu dois rendre un objet !
     </div>
     <div class="message-body">
       <div class="message-left" >
-        <strong>Moule à geateaux</strong> demandé(e) par <a href="#" class="user">Alex</a> pour le 16/12/17
+        <strong>Fer à repasser</strong> empruntée à <a href="#" class="user">Elise</a> à rendre avant le 13/12/17
       </div>
       <div class="buttons-right">
         <button class="btn btn-info btn-lg" type="button" name="button"><i class="glyphicon glyphicon-envelope"></i></button>
-        <button class="btn btn-info btn-lg btn-danger" type="button" name="button"><i class="glyphicon glyphicon-remove"></i></button>
-        <button class="btn btn-success btn-lg" type="button" name="button"><i class="glyphicon glyphicon-ok"></i></button>
+        <button class="btn btn-info btn-lg btn-danger" type="button" name="button"><i class="glyphicon glyphicon-trash"></i></button>
+        <button class="btn btn-success btn-lg" type="button" name="button"><i class="glyphicon glyphicon-log-out"></i></button>
 
       </div>
     </div>

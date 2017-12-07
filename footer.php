@@ -2,17 +2,16 @@
   <div id="footer">
     <div id="footer-content" class="row container">
         <div id="footer-content-2">
-          <div id="pages" class="col-sm-4 footer-column">
-            <h3>A changer</h3>
+          <div id="pages" class="footer-column">
+            <h3>Partagez</h3>
             <ul>
               <li><a href="index.php">Accueil</a></li>
               <li><a href="myObjects.php">Mes objets</a></li>
               <li><a href="objectsBorrowed.php">Mes emprunts</a></li>
-              <li><a href="myAccount">Mon compte</a></li>
               <li><a href="#search">Rechercher un objet</a></li>
             </ul>
           </div>
-          <div id="acknowledgments" class="col-sm-4 footer-column">
+          <div id="acknowledgments" class="footer-column">
             <h3>Mon compte</h3>
             <ul>
               <li><a href="index.php">Infos personnelles</a></li>
@@ -21,10 +20,16 @@
               <li><a href="objectsBorrowed.php">Déconnexion</a></li>
             </ul>
           </div>
-          <div id="social-media" class="col-sm-4 footer-column">
-            <h3>Où nous contacter ?</h3>
-            <a href="https://www.facebook.com/ShareCampus/"><img src="images/facebook.png" title="Notre page Facebook"></a>
-            <a href="#"><img src="images/twitter.png" title="Twitter"></a>
+          <div id="social-media" class="footer-column">
+            <h3>Nous contacter</h3>
+            <div class="socials">
+              <a href="https://www.facebook.com/ShareCampus/"><img src="images/facebook.png" title="Notre page Facebook"></a>
+              <a href="#"><img src="images/twitter.png" title="Twitter"></a>
+
+            </div>
+            <a href="#">Nous contacter par mail :</a>
+            <a href="#">s3-projet-39@mlistes.telecom-bretagne.eu</a>
+
           </div>
         </div>
     </div><!-- END of row -->

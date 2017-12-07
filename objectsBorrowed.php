@@ -17,7 +17,7 @@
   <div class="objects-container">
     <div class="object-borrowed">
       <div class="object-left" >
-        <strong>Aspirateur</strong> de Elise
+        <strong>Fer à repasser</strong> d'Elise
       </div>
       <div class="buttons-right">
         <button class="btn btn-info btn-lg" type="button" name="button"><i class="glyphicon glyphicon-info-sign"></i></button>

@@ -4,12 +4,6 @@ html{
   width: 100%;
 }
 
-@font-face {
-    font-family: 'Milkshake';
-    src: url('Milkshake/Milkshake.ttf');
-}
-
-
 
 .well{
   margin-top: 20px;
@@ -21,15 +15,13 @@ body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  /*background-image: url(images/share_campus_1.svg);
+  background-image: url(images/share_campus_1.svg);
   background-position: center;
-  background-size: cover;*/
+  background-size:1700px 1700px;
 }
 
 h1{
   font-family: lobster;
-   /*text-shadow: 1px 0 0 black, 0 1px 0 black, 0 -1px 0 black, -1px 0 0 black;*/
-  font-weight: bold;
   color: #2fa8ff;
 }
 
@@ -251,7 +243,8 @@ button{
 }
 
 #logo_name h3{
-  margin: 17px 0px 0px 0px;
+  margin: 8px 0px 0px 0px;
+  font-size: 0.8em;
 }
 
 #menu-items{
@@ -319,7 +312,7 @@ li form{
 	background-color: #FF9800;
 	color:white;
   max-height: 100%;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 #footer-content {
@@ -330,15 +323,22 @@ li form{
 
 #footer-content-2 {
 	margin: 0 10px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .footer-column {
 	padding: 10px 5px 3px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 60px;
 }
 
 .footer-column ul {
 	list-style: none;
-	padding: 0 30px 0 10px;
+  padding: 0;
+	/*padding: 0 30px 0 10px;*/
 }
 
 .footer-column li {
@@ -349,7 +349,7 @@ li form{
 .footer-column a {
 	color: white;
 	text-decoration: none;
-	margin: 0 20px 0 20px;
+	margin: 0;
 	font-size: 1.2em;
 	letter-spacing: 0.5px;
 }
@@ -360,9 +360,15 @@ li form{
 }
 
 
+#social-media > div{
+  flex-direction: row;
+  margin: 10px 0;
+  display: flex;
+}
 
 #social-media a img {
 	width: 55px;
+  margin-right: 10px;
 	/*margin: 10px 10px 10px 10px;*/
 }
 
@@ -773,8 +779,8 @@ li form{
 
 #objects_season{
   max-width: 2000px;
-  max-height: 500px;
-  height: 500px;
+  max-height: 1000px;
+  height: 1000px;
   margin-top: 0;
   padding:0px;
 }
@@ -956,7 +962,7 @@ li form{
 
     .message-body{
       background-color: #ffcb6c;
-      border-radius: 0 0 10px 10px;
+
       display: flex;
       justify-content: space-between;
       padding: 10px 15px;
@@ -965,6 +971,16 @@ li form{
       .message-body > div{
         margin: auto 0 auto 0;
       }
+
+    .message-footer{
+      background-color: #ffcb6c;
+      border-radius: 0 0 10px 10px;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 15px;
+      margin: auto;
+      border-radius: 0 0 10px 10px;
+    }
 
 
 

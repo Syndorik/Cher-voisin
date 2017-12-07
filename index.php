@@ -35,44 +35,43 @@
         </a>
       </div>
     </section>
-    <div class="news-container">
-      <section class="news-section single-item" id="cooking-section">
-        <h4>Derniers ajouts dans la catégorie Cuisine</h4>
-        <div class="objects-container-display">
-          <div class="object-display">
-            Appareil à fondue
-          </div>
-          <div class="object-display">
-            Moule
-          </div>
-          <div class="object-display">
-            Poêle
-          </div>
+  
+    <section class="news-section single-item" id="cooking-section">
+      <h4>Derniers ajouts dans la catégorie Cuisine</h4>
+      <div class="objects-container-display">
+        <div class="object-display">
+          Appareil à fondue
+        </div>
+        <div class="object-display">
+          Moule
+        </div>
+        <div class="object-display">
+          Poêle
+        </div>
 
+      </div>
+    </section><!-- END of cooking section -->
+    <section class="news-section single-item" >
+      <h4>Derniers ajouts dans la catégorie Produits ménagers</h4>
+      <div class="objects-container-display">
+        <div class="object-display">
+          Aspirateur
         </div>
-      </section><!-- END of cooking section -->
-      <section class="news-section single-item" >
-        <h4>Derniers ajouts dans la catégorie Produits ménagers</h4>
-        <div class="objects-container-display">
-          <div class="object-display">
-            Aspirateur
-          </div>
-          <div class="object-display">
-            Fer à repasser
-          </div>
-          <div class="object-display">
-            Balai
-          </div>
+        <div class="object-display">
+          Fer à repasser
         </div>
-      </section>
-    </div>
-    <div class="news-container">
-      <section class="news-section single-item">
-        <h4>Derniers objets empruntés</h4>
-      </section>
-      <section class="news-section single-item">
-        <h4>Derniers titres acquis</h4>
-      </section>
-    </div>
+        <div class="object-display">
+          Balai
+        </div>
+      </div>
+    </section>
+
+    <section class="news-section single-item">
+      <h4>Derniers objets empruntés</h4>
+    </section>
+    <section class="news-section single-item">
+      <h4>Derniers titres acquis</h4>
+    </section>
+
   </div>
 <<?php include ("footer.php"); ?>
